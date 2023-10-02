@@ -1,0 +1,7 @@
+#sideMenuContainer{
+    display: flex;
+    flex-direction: row;
+    height: 978px;
+    width: 100%;
+    border: 1px solid yellow;
+}

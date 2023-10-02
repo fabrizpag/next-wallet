@@ -1,0 +1,66 @@
+#sideMenuContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    border: 3px solid red;
+    background-color: #8D8282;
+    transition: 500ms width;
+}
+.sideMenuItem{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #8D8282;
+    width: 80%;
+    height: 4%;
+    border-radius: 25px;
+}
+.sideMenuItemLab{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 14px;
+    white-space: nowrap;
+}
+.sideMenuImg{
+    position: relative;
+    left:10px;
+}
+
+.sideMenuItem:has(.sideMenuItemLab:hover) {
+    background-color:white;
+}
+.sideMenuItemLab:hover{
+    color: #8D8282;
+    cursor: pointer;
+}
+#sideMenuHomeImg:has(+ #sm1:hover){
+    content: url("/icons8-casa-24G.png");
+}
+#sideMenuSpeseImg:has(+ #sm2:hover){
+    content: url("/icons8-yandex-money-24G.png");
+}
+#sideMenuSpeseRImg:has(+ #sm3:hover){
+    content: url("/icons8-bills-24G.png");
+}
+#sideMenuCreditiImg:has(+ #sm4:hover){
+    content: url("/icons8-ricevi-il-dollaro-24G.png");
+}
+#sideMenuDebitiImg:has(+ #sm5:hover){
+    content: url("/icons8-debito-24G.png ");
+}
+#sideMenuDivMenu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    width: 80%;
+}
+#sideMenuMenuImg:hover{
+    cursor: pointer;
+}
+
