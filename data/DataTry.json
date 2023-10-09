@@ -1,0 +1,97 @@
+{
+  "isLogged": true,
+  "spesa": [
+    {
+      "cosa": "spesa",
+      "quando": "2023-09-17T12:30:00.000Z",
+      "costo": 10.5
+    },
+    {
+      "cosa": "t-shirt",
+      "quando": "2022-08-17T12:30:00.000Z",
+      "costo": 35.5
+    },
+    {
+      "cosa": "drink",
+      "quando": "2023-08-14T12:30:00.000Z",
+      "costo": 10
+    },
+    {
+      "cosa": "t-shirt",
+      "quando": "2023-08-17T12:30:00.000Z",
+      "costo": 17.5
+    },
+    {
+      "cosa": "lavanderia",
+      "quando": "2023-08-18T12:30:00.000Z",
+      "costo": 20
+    },
+    {
+      "cosa": "vestiti",
+      "quando": "2023-08-19T12:30:00.000Z",
+      "costo": 50
+    },
+    {
+      "cosa": "drink",
+      "quando": "2023-08-21T12:30:00.000Z",
+      "costo": 10
+    },
+    {
+      "cosa": "treno",
+      "quando": "2023-08-27T12:30:00.000Z",
+      "costo": 27.5
+    }
+  ],
+  "spesaRicorrente": [
+    {
+      "cosa": "amazon-prime",
+      "costo": 9.99
+    },
+    {
+      "cosa": "youtube-prime",
+      "costo": 6.99
+    },
+    {
+      "cosa": "spotify",
+      "costo": 5.99
+    },
+    {
+      "cosa": "netflix",
+      "costo": 16.99
+    }
+  ],
+  "crediti": [
+    {
+      "chi": "Carmine",
+      "dataInizio": "2023-09-02T12:30:00.000Z",
+      "dataFine": "2023-09-03T12:30:00.000Z",
+      "costo": 20
+    },
+    {
+      "chi": "Carmine",
+      "dataInizio": "2023-10-01T12:30:00.000Z",
+      "dataFine": null,
+      "costo": 40
+    },
+    {
+      "chi": "Papà",
+      "dataInizio": "2023-10-05T12:30:00.000Z",
+      "dataFine": null,
+      "costo": 25
+    }
+  ],
+  "debiti": [
+    {
+      "chi": "Max",
+      "dataInizio": "2023-07-01T12:30:00.000Z",
+      "dataFine": "2023-07-04T12:30:00.000Z",
+      "costo": 70
+    }
+  ],
+  "utenti": [
+    {
+      "username": "fabri",
+      "psw": "fabri"
+    }
+  ]
+}

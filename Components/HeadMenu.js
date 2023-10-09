@@ -1,7 +1,9 @@
+import styles from './HeadMenu.module.css';
+
 function HeadMenu(){
     return(
-        <div>
-            
+        <div id={styles.headMenuContainer}>
+
         </div>
     ); 
 }
